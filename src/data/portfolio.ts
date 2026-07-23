@@ -183,7 +183,7 @@ export const projects: Project[] = [
     frontend: "Next.js",
     backend: "Python (FastAPI)",
     database: "PostgreSQL",
-    repoUrl: "https://github.com/your-username/clinic-booking-suite",
+    repoUrl: "https://github.com/Awais-Qarni-Muhammad/clinic-booking-suite",
     highlights: [
       "Runs live benchmarks against liboqs algorithm implementations",
       "Visualizes throughput, latency, and key-size trade-offs",
@@ -199,7 +199,7 @@ export const projects: Project[] = [
     frontend: "Angular",
     backend: "ASP.NET Core",
     database: "SQL Server",
-    repoUrl: "https://github.com/your-username/clinic-booking-suite",
+    repoUrl: "https://github.com/Awais-Qarni-Muhammad/clinic-booking-suite",
     highlights: [
       "Multi-tenant architecture with per-clinic data isolation",
       "JWT authentication with role-based access (admin, doctor, patient)",
@@ -215,7 +215,7 @@ export const projects: Project[] = [
     frontend: "React",
     backend: "Python (Flask)",
     database: "PostgreSQL",
-    repoUrl: "https://github.com/your-username/clinic-booking-suite",
+    repoUrl: "https://github.com/Awais-Qarni-Muhammad/clinic-booking-suite",
 
     highlights: [
       "ML-driven anomaly detection on patient data trends",
@@ -232,7 +232,7 @@ export const projects: Project[] = [
     frontend: "Next.js",
     backend: "Node.js (Express)",
     database: "MongoDB",
-    repoUrl: "https://github.com/your-username/clinic-booking-suite",
+    repoUrl: "https://github.com/Awais-Qarni-Muhammad/clinic-booking-suite",
 
     highlights: [
       "Cart, checkout, and order-tracking flows",
@@ -248,7 +248,7 @@ export const projects: Project[] = [
     status: "Demo Project",
     frontend: "Angular",
     backend: "ASP.NET Core",
-    repoUrl: "https://github.com/your-username/clinic-booking-suite",
+    repoUrl: "https://github.com/Awais-Qarni-Muhammad/clinic-booking-suite",
 
     database: "SQL Server",
     highlights: [
@@ -271,7 +271,7 @@ export const projects: Project[] = [
       "Background service simulates sensor drift and evaluates automation rules",
       "Toggle lights and thermostats with changes reflected instantly",
     ],
-    repoUrl: "https://github.com/your-username/smart-home-iot-suite",
+    repoUrl: "https://github.com/Awais-Qarni-Muhammad/smart-home-iot-suite",
   },
   {
     slug: "realtime-collab",
@@ -282,7 +282,7 @@ export const projects: Project[] = [
     frontend: "React",
     backend: "Node.js (Express + Socket.IO)",
     database: "MongoDB",
-    repoUrl: "https://github.com/your-username/clinic-booking-suite",
+    repoUrl: "https://github.com/Awais-Qarni-Muhammad/clinic-booking-suite",
 
     highlights: [
       "WebSocket-based live messaging and presence indicators",
@@ -299,7 +299,7 @@ export const projects: Project[] = [
     frontend: "Angular",
     backend: "ASP.NET Core",
     database: "SQL Server",
-    repoUrl: "https://github.com/your-username/clinic-booking-suite",
+    repoUrl: "https://github.com/Awais-Qarni-Muhammad/clinic-booking-suite",
 
     highlights: [
       "Leave-request workflow with manager approval chains",
@@ -316,7 +316,7 @@ export const projects: Project[] = [
     frontend: "Next.js",
     backend: "Node.js (Express)",
     database: "MongoDB",
-    repoUrl: "https://github.com/your-username/clinic-booking-suite",
+    repoUrl: "https://github.com/Awais-Qarni-Muhammad/clinic-booking-suite",
 
     highlights: [
       "Dynamic menu with combo/deal configuration",
@@ -333,7 +333,7 @@ export const projects: Project[] = [
     frontend: "React",
     backend: "Python (FastAPI)",
     database: "MySQL",
-    repoUrl: "https://github.com/your-username/clinic-booking-suite",
+    repoUrl: "https://github.com/Awais-Qarni-Muhammad/clinic-booking-suite",
 
     highlights: [
       "Filterable charts across time range, category, and region",
@@ -350,7 +350,7 @@ export const projects: Project[] = [
     frontend: "Next.js",
     backend: "ASP.NET Core",
     database: "SQL Server",
-    repoUrl: "https://github.com/your-username/clinic-booking-suite",
+    repoUrl: "https://github.com/Awais-Qarni-Muhammad/clinic-booking-suite",
 
     highlights: [
       "Job posting and proposal-bidding workflow",
