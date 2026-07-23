@@ -20,7 +20,16 @@ export const skills = [
   },
   {
     category: "Frameworks",
-    items: ["ASP.NET Core", ".NET 6/7/8", "Angular", "AngularJS", "React", "Next.js", "Node.js", "Flask"],
+    items: [
+      "ASP.NET Core",
+      ".NET 6/7/8",
+      "Angular",
+      "AngularJS",
+      "React",
+      "Next.js",
+      "Node.js",
+      "Flask",
+    ],
   },
   {
     category: "Databases",
@@ -32,11 +41,24 @@ export const skills = [
   },
   {
     category: "Architecture",
-    items: ["RESTful APIs", "CQRS", "Clean Architecture", "Dependency Injection", "Microservices"],
+    items: [
+      "RESTful APIs",
+      "CQRS",
+      "Clean Architecture",
+      "Dependency Injection",
+      "Microservices",
+    ],
   },
   {
     category: "Other",
-    items: ["Redux", "Sass", "Material UI", "jQuery", "AI/ML Integration", "Unit & Integration Testing"],
+    items: [
+      "Redux",
+      "Sass",
+      "Material UI",
+      "jQuery",
+      "AI/ML Integration",
+      "Unit & Integration Testing",
+    ],
   },
 ];
 
@@ -52,7 +74,16 @@ export const experience = [
       "Refactored legacy codebase to clean architecture patterns, increasing backend durability and maintainability by 90%.",
       "Integrated RESTful APIs and collaborated with cross-functional teams to deliver production-ready solutions with 89% reliability.",
     ],
-    stack: ["ASP.NET Core", "C#", "SQL Server", "PostgreSQL", "REST APIs", "React", "Redux", "Sass"],
+    stack: [
+      "ASP.NET Core",
+      "C#",
+      "SQL Server",
+      "PostgreSQL",
+      "REST APIs",
+      "React",
+      "Redux",
+      "Sass",
+    ],
   },
   {
     role: "Junior Full Stack Developer",
@@ -78,7 +109,14 @@ export const experience = [
       "Developed responsive, user-friendly UIs with Material UI, HTML, and jQuery, rated 92% for UI quality.",
       "Managed and evolved e-commerce platforms with real-time performance monitoring and version control via GitHub.",
     ],
-    stack: ["MongoDB", "Express.js", "React", "Node.js", "Material UI", "jQuery"],
+    stack: [
+      "MongoDB",
+      "Express.js",
+      "React",
+      "Node.js",
+      "Material UI",
+      "jQuery",
+    ],
   },
   {
     role: ".NET & SQL Developer Trainee",
@@ -145,6 +183,7 @@ export const projects: Project[] = [
     frontend: "Next.js",
     backend: "Python (FastAPI)",
     database: "PostgreSQL",
+    repoUrl: "https://github.com/your-username/clinic-booking-suite",
     highlights: [
       "Runs live benchmarks against liboqs algorithm implementations",
       "Visualizes throughput, latency, and key-size trade-offs",
@@ -160,6 +199,7 @@ export const projects: Project[] = [
     frontend: "Angular",
     backend: "ASP.NET Core",
     database: "SQL Server",
+    repoUrl: "https://github.com/your-username/clinic-booking-suite",
     highlights: [
       "Multi-tenant architecture with per-clinic data isolation",
       "JWT authentication with role-based access (admin, doctor, patient)",
@@ -175,6 +215,8 @@ export const projects: Project[] = [
     frontend: "React",
     backend: "Python (Flask)",
     database: "PostgreSQL",
+    repoUrl: "https://github.com/your-username/clinic-booking-suite",
+
     highlights: [
       "ML-driven anomaly detection on patient data trends",
       "Interactive charts for cohort-level insights",
@@ -190,6 +232,8 @@ export const projects: Project[] = [
     frontend: "Next.js",
     backend: "Node.js (Express)",
     database: "MongoDB",
+    repoUrl: "https://github.com/your-username/clinic-booking-suite",
+
     highlights: [
       "Cart, checkout, and order-tracking flows",
       "Admin panel for product and inventory management",
@@ -204,12 +248,30 @@ export const projects: Project[] = [
     status: "Demo Project",
     frontend: "Angular",
     backend: "ASP.NET Core",
+    repoUrl: "https://github.com/your-username/clinic-booking-suite",
+
     database: "SQL Server",
     highlights: [
       "Real-time stock-level tracking with low-stock alerts",
       "Stored-procedure-driven reporting for reconciliation",
       "Barcode-ready SKU lookup workflow",
     ],
+  },
+  {
+    slug: "smart-home-iot",
+    title: "Smart Home IoT Dashboard",
+    description:
+      "A real-time smart home control dashboard — live thermostat drift, motion/door sensor events, and automation rules, pushed from an ASP.NET Core + SignalR backend to a glass-UI frontend over WebSockets.",
+    status: "In Development",
+    frontend: "Next.js",
+    backend: "ASP.NET Core (SignalR)",
+    database: "SQL Server",
+    highlights: [
+      "Real-time device state pushed live over WebSockets (SignalR)",
+      "Background service simulates sensor drift and evaluates automation rules",
+      "Toggle lights and thermostats with changes reflected instantly",
+    ],
+    repoUrl: "https://github.com/your-username/smart-home-iot-suite",
   },
   {
     slug: "realtime-collab",
@@ -220,6 +282,8 @@ export const projects: Project[] = [
     frontend: "React",
     backend: "Node.js (Express + Socket.IO)",
     database: "MongoDB",
+    repoUrl: "https://github.com/your-username/clinic-booking-suite",
+
     highlights: [
       "WebSocket-based live messaging and presence indicators",
       "Threaded replies and channel-based organization",
@@ -235,6 +299,8 @@ export const projects: Project[] = [
     frontend: "Angular",
     backend: "ASP.NET Core",
     database: "SQL Server",
+    repoUrl: "https://github.com/your-username/clinic-booking-suite",
+
     highlights: [
       "Leave-request workflow with manager approval chains",
       "Role-based access control across departments",
@@ -250,6 +316,8 @@ export const projects: Project[] = [
     frontend: "Next.js",
     backend: "Node.js (Express)",
     database: "MongoDB",
+    repoUrl: "https://github.com/your-username/clinic-booking-suite",
+
     highlights: [
       "Dynamic menu with combo/deal configuration",
       "Live order-status tracking for customers",
@@ -265,6 +333,8 @@ export const projects: Project[] = [
     frontend: "React",
     backend: "Python (FastAPI)",
     database: "MySQL",
+    repoUrl: "https://github.com/your-username/clinic-booking-suite",
+
     highlights: [
       "Filterable charts across time range, category, and region",
       "CSV/PDF export for stakeholder reporting",
@@ -280,6 +350,8 @@ export const projects: Project[] = [
     frontend: "Next.js",
     backend: "ASP.NET Core",
     database: "SQL Server",
+    repoUrl: "https://github.com/your-username/clinic-booking-suite",
+
     highlights: [
       "Job posting and proposal-bidding workflow",
       "In-platform messaging between clients and freelancers",
