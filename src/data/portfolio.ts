@@ -165,7 +165,7 @@ export type Project = {
   slug: string;
   title: string;
   description: string;
-  status: "In Development" | "Demo Project";
+  status: "In Development" | "Demo Project" | "Completed";
   frontend: string;
   backend: string;
   database: string;
@@ -193,9 +193,10 @@ export const projects: Project[] = [
   {
     slug: "clinic-booking-saas",
     title: "Clinic Appointment Booking SaaS",
+    
     description:
       "A multi-tenant appointment booking platform for clinics — patient scheduling, doctor availability, and admin dashboards, designed for the Pakistan healthcare market.",
-    status: "Demo Project",
+    status: "Completed",
     frontend: "Angular",
     backend: "ASP.NET Core",
     database: "SQL Server",
@@ -211,7 +212,7 @@ export const projects: Project[] = [
     title: "AI Medical Data Insights Dashboard",
     description:
       "A dashboard that applies ML models to structured medical datasets to surface trends and anomalies, inspired by data-science work on mission-critical health records.",
-    status: "Demo Project",
+    status: "Completed",
     frontend: "React",
     backend: "Python (Flask)",
     database: "PostgreSQL",
@@ -228,7 +229,7 @@ export const projects: Project[] = [
     title: "E-Commerce Platform",
     description:
       "A full storefront-to-checkout e-commerce build with an admin panel for catalog and order management.",
-    status: "Demo Project",
+    status: "Completed",
     frontend: "Next.js",
     backend: "Node.js (Express)",
     database: "MongoDB",
@@ -245,7 +246,7 @@ export const projects: Project[] = [
     title: "Inventory & Warehouse Management System",
     description:
       "A backend-heavy system for tracking stock levels, warehouse locations, and shipment reconciliation with reporting for operations teams.",
-    status: "Demo Project",
+    status: "Completed",
     frontend: "Angular",
     backend: "ASP.NET Core",
     repoUrl: "https://github.com/Awais-Qarni-Muhammad/clinic-booking-suite",
@@ -266,19 +267,19 @@ export const projects: Project[] = [
     frontend: "Next.js",
     backend: "ASP.NET Core (SignalR)",
     database: "SQL Server",
+    repoUrl: "https://github.com/Awais-Qarni-Muhammad/smart-home-iot-suite",
     highlights: [
       "Real-time device state pushed live over WebSockets (SignalR)",
       "Background service simulates sensor drift and evaluates automation rules",
       "Toggle lights and thermostats with changes reflected instantly",
     ],
-    repoUrl: "https://github.com/Awais-Qarni-Muhammad/smart-home-iot-suite",
   },
   {
     slug: "realtime-collab",
     title: "Real-Time Collaboration & Chat App",
     description:
       "A team messaging tool with live presence, channels, and threaded conversations, built to explore real-time architecture patterns.",
-    status: "Demo Project",
+    status: "Completed",
     frontend: "React",
     backend: "Node.js (Express + Socket.IO)",
     database: "MongoDB",
@@ -295,7 +296,7 @@ export const projects: Project[] = [
     title: "HR & Employee Management System",
     description:
       "An internal tool for managing employee records, leave requests, and role-based permissions across departments.",
-    status: "Demo Project",
+    status: "Completed",
     frontend: "Angular",
     backend: "ASP.NET Core",
     database: "SQL Server",
@@ -312,7 +313,7 @@ export const projects: Project[] = [
     title: "Food Ordering Platform",
     description:
       "A restaurant ordering platform with live menus, order tracking, and an admin dashboard — built on the same concept as a KFC Pakistan-style ordering site.",
-    status: "Demo Project",
+    status: "Completed",
     frontend: "Next.js",
     backend: "Node.js (Express)",
     database: "MongoDB",
@@ -329,7 +330,7 @@ export const projects: Project[] = [
     title: "Product Analytics Dashboard",
     description:
       "A metrics dashboard that pulls product and sales data into exportable, filterable reports for business stakeholders.",
-    status: "Demo Project",
+    status: "Completed",
     frontend: "React",
     backend: "Python (FastAPI)",
     database: "MySQL",
@@ -346,7 +347,7 @@ export const projects: Project[] = [
     title: "Freelance Job Marketplace",
     description:
       "A mini Upwork-style marketplace connecting clients and freelancers, with job postings, proposals, and in-platform messaging.",
-    status: "Demo Project",
+    status: "Completed",
     frontend: "Next.js",
     backend: "ASP.NET Core",
     database: "SQL Server",
