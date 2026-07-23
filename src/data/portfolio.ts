@@ -165,7 +165,7 @@ export type Project = {
   slug: string;
   title: string;
   description: string;
-  status: "In Development" | "Demo Project" | "Completed";
+  status: "In Development" | "Archived" | "Completed" | "Planned";
   frontend: string;
   backend: string;
   database: string;

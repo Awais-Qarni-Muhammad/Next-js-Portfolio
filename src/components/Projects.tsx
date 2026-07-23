@@ -3,7 +3,12 @@
 import { motion } from "framer-motion";
 import { projects } from "@/data/portfolio";
 import { Code2, ExternalLink } from "lucide-react";
-
+const statusStyles = {
+  "In Development": "!bg-amber-500/10 !border-amber-400/30 !text-amber-300",
+  "Completed": "!bg-emerald-500/10 !border-emerald-400/30 !text-emerald-300",
+  "Planned": "!bg-sky-500/10 !border-sky-400/30 !text-sky-300",
+  "Archived": "!bg-slate-500/10 !border-slate-400/30 !text-slate-300",
+};
 export default function Projects() {
   return (
     <section id="projects" className="px-6 py-24">
@@ -17,8 +22,9 @@ export default function Projects() {
           </h2>
           <p className="text-sm text-[var(--text-muted)] mt-3 max-w-2xl">
             Projects marked{" "}
-            <span className="chip inline-flex mx-1">Demo Project</span> are concept builds created
-            to demonstrate stack versatility, not delivered client work.
+            <span className="chip inline-flex mx-1">Demo Project</span> are
+            concept builds created to demonstrate stack versatility, not
+            delivered client work.
           </p>
         </div>
 
@@ -38,9 +44,8 @@ export default function Projects() {
                 </h3>
                 <span
                   className={`chip shrink-0 ${
-                    project.status === "In Development"
-                      ? "!bg-emerald-500/10 !border-emerald-400/30 !text-emerald-300"
-                      : ""
+                    statusStyles[project.status] ??
+                    "!bg-slate-500/10 !border-slate-400/30 !text-slate-300"
                   }`}
                 >
                   {project.status}
@@ -53,7 +58,10 @@ export default function Projects() {
 
               <ul className="space-y-1.5 mb-5">
                 {project.highlights.map((h) => (
-                  <li key={h} className="text-xs text-[var(--text-muted)] pl-3.5 relative leading-relaxed">
+                  <li
+                    key={h}
+                    className="text-xs text-[var(--text-muted)] pl-3.5 relative leading-relaxed"
+                  >
                     <span className="absolute left-0 top-[0.5em] w-1 h-1 rounded-full bg-indigo-400/60" />
                     {h}
                   </li>
