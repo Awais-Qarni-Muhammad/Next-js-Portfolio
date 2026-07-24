@@ -1,0 +1,45 @@
+<svg width="640" height="420" viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow1-realtime-collab" cx="22%" cy="18%" r="65%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2-realtime-collab" cx="85%" cy="90%" r="60%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="badge-realtime-collab" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <pattern id="grid-realtime-collab" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M 34 0 L 0 0 0 34" fill="none" stroke="#38bdf8" stroke-opacity="0.14" stroke-width="1"/>
+    </pattern>
+    <mask id="fade-realtime-collab">
+      <rect width="640" height="420" fill="white"/>
+      <radialGradient id="fadegrad-realtime-collab" cx="50%" cy="42%" r="60%">
+        <stop offset="0%" stop-color="white"/>
+        <stop offset="100%" stop-color="black"/>
+      </radialGradient>
+      <rect width="640" height="420" fill="url(#fadegrad-realtime-collab)" opacity="0.35"/>
+    </mask>
+  </defs>
+
+  <rect width="640" height="420" fill="#070a16"/>
+  <rect width="640" height="420" fill="url(#grid-realtime-collab)" mask="url(#fade-realtime-collab)"/>
+  <rect width="640" height="420" fill="url(#glow1-realtime-collab)"/>
+  <rect width="640" height="420" fill="url(#glow2-realtime-collab)"/>
+
+  <circle cx="320.0" cy="196.0" r="72" fill="white" fill-opacity="0.035"/>
+  <circle cx="320.0" cy="196.0" r="72" fill="none" stroke="url(#badge-realtime-collab)" stroke-width="2" stroke-opacity="0.6"/>
+  <circle cx="320.0" cy="196.0" r="54" fill="url(#badge-realtime-collab)" fill-opacity="0.16"/>
+
+  <g transform="translate(320.0, 196.0)">
+    
+    <path d="M -40 -22 H 20 A 8 8 0 0 1 28 -14 V 10 A 8 8 0 0 1 20 18 H -6 L -20 32 V 18 H -32 A 8 8 0 0 1 -40 10 Z" fill="none" stroke="white" stroke-width="5" stroke-linejoin="round" stroke-opacity="0.92"/>
+    <circle cx="-16" cy="-2" r="3.4" fill="white" fill-opacity="0.9"/>
+    <circle cx="-4" cy="-2" r="3.4" fill="white" fill-opacity="0.9"/>
+    <circle cx="8" cy="-2" r="3.4" fill="white" fill-opacity="0.9"/>
+    
+  </g>
+</svg>

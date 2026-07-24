@@ -1,0 +1,45 @@
+<svg width="640" height="420" viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow1-hr-management" cx="22%" cy="18%" r="65%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2-hr-management" cx="85%" cy="90%" r="60%">
+      <stop offset="0%" stop-color="#f472b6" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="badge-hr-management" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+    <pattern id="grid-hr-management" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M 34 0 L 0 0 0 34" fill="none" stroke="#8b5cf6" stroke-opacity="0.14" stroke-width="1"/>
+    </pattern>
+    <mask id="fade-hr-management">
+      <rect width="640" height="420" fill="white"/>
+      <radialGradient id="fadegrad-hr-management" cx="50%" cy="42%" r="60%">
+        <stop offset="0%" stop-color="white"/>
+        <stop offset="100%" stop-color="black"/>
+      </radialGradient>
+      <rect width="640" height="420" fill="url(#fadegrad-hr-management)" opacity="0.35"/>
+    </mask>
+  </defs>
+
+  <rect width="640" height="420" fill="#070a16"/>
+  <rect width="640" height="420" fill="url(#grid-hr-management)" mask="url(#fade-hr-management)"/>
+  <rect width="640" height="420" fill="url(#glow1-hr-management)"/>
+  <rect width="640" height="420" fill="url(#glow2-hr-management)"/>
+
+  <circle cx="320.0" cy="196.0" r="72" fill="white" fill-opacity="0.035"/>
+  <circle cx="320.0" cy="196.0" r="72" fill="none" stroke="url(#badge-hr-management)" stroke-width="2" stroke-opacity="0.6"/>
+  <circle cx="320.0" cy="196.0" r="54" fill="url(#badge-hr-management)" fill-opacity="0.16"/>
+
+  <g transform="translate(320.0, 196.0)">
+    
+    <circle cx="-14" cy="-18" r="13" fill="none" stroke="white" stroke-width="5" stroke-opacity="0.92"/>
+    <path d="M -38 26 C -38 6 -30 -2 -14 -2 C 2 -2 10 6 10 26" fill="none" stroke="white" stroke-width="5" stroke-linecap="round" stroke-opacity="0.92"/>
+    <circle cx="20" cy="-12" r="10" fill="none" stroke="white" stroke-width="4.5" stroke-opacity="0.7"/>
+    <path d="M 2 26 C 2 10 10 4 22 4 C 33 4 40 10 40 26" fill="none" stroke="white" stroke-width="4.5" stroke-linecap="round" stroke-opacity="0.7"/>
+    
+  </g>
+</svg>

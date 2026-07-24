@@ -8,7 +8,7 @@ export const profile = {
   email: "official.qarni@gmail.com",
   phone: "+49 1573 6723815",
   linkedin: "https://linkedin.com",
-  github: "https://github.com",
+  github: "https://github.com/Awais-Qarni-Muhammad/",
   summary:
     "Senior .NET Backend Developer and SQL Database Engineer with 5+ years of experience building enterprise-grade systems. Specialized in ASP.NET Core, C#, SQL Server optimization, and Azure cloud services. Proven track record delivering production systems for large organizations including the Pakistan Air Force. Currently pursuing an MSc in High Performance Computing & Quantum Computing at Technische Hochschule Deggendorf, Germany.",
 };
@@ -20,16 +20,7 @@ export const skills = [
   },
   {
     category: "Frameworks",
-    items: [
-      "ASP.NET Core",
-      ".NET 6/7/8",
-      "Angular",
-      "AngularJS",
-      "React",
-      "Next.js",
-      "Node.js",
-      "Flask",
-    ],
+    items: ["ASP.NET Core", ".NET 6/7/8", "Angular", "AngularJS", "React", "Next.js", "Node.js", "Flask"],
   },
   {
     category: "Databases",
@@ -41,24 +32,11 @@ export const skills = [
   },
   {
     category: "Architecture",
-    items: [
-      "RESTful APIs",
-      "CQRS",
-      "Clean Architecture",
-      "Dependency Injection",
-      "Microservices",
-    ],
+    items: ["RESTful APIs", "CQRS", "Clean Architecture", "Dependency Injection", "Microservices"],
   },
   {
     category: "Other",
-    items: [
-      "Redux",
-      "Sass",
-      "Material UI",
-      "jQuery",
-      "AI/ML Integration",
-      "Unit & Integration Testing",
-    ],
+    items: ["Redux", "Sass", "Material UI", "jQuery", "AI/ML Integration", "Unit & Integration Testing"],
   },
 ];
 
@@ -74,16 +52,7 @@ export const experience = [
       "Refactored legacy codebase to clean architecture patterns, increasing backend durability and maintainability by 90%.",
       "Integrated RESTful APIs and collaborated with cross-functional teams to deliver production-ready solutions with 89% reliability.",
     ],
-    stack: [
-      "ASP.NET Core",
-      "C#",
-      "SQL Server",
-      "PostgreSQL",
-      "REST APIs",
-      "React",
-      "Redux",
-      "Sass",
-    ],
+    stack: ["ASP.NET Core", "C#", "SQL Server", "PostgreSQL", "REST APIs", "React", "Redux", "Sass"],
   },
   {
     role: "Junior Full Stack Developer",
@@ -109,14 +78,7 @@ export const experience = [
       "Developed responsive, user-friendly UIs with Material UI, HTML, and jQuery, rated 92% for UI quality.",
       "Managed and evolved e-commerce platforms with real-time performance monitoring and version control via GitHub.",
     ],
-    stack: [
-      "MongoDB",
-      "Express.js",
-      "React",
-      "Node.js",
-      "Material UI",
-      "jQuery",
-    ],
+    stack: ["MongoDB", "Express.js", "React", "Node.js", "Material UI", "jQuery"],
   },
   {
     role: ".NET & SQL Developer Trainee",
@@ -149,7 +111,7 @@ export const education = [
     degree: "MSc in High Performance Computing & Quantum Computing",
     institution: "Technische Hochschule Deggendorf",
     location: "Deggendorf, Bavaria, Germany",
-    period: "2024 – Present",
+    period: "March 2024 – Present",
     note: "Thesis: Benchmarking post-quantum cryptographic algorithms",
   },
   {
@@ -165,7 +127,7 @@ export type Project = {
   slug: string;
   title: string;
   description: string;
-  status: "In Development" | "Archived" | "Completed" | "Planned";
+  status: "In Development" | "Demo Project";
   frontend: string;
   backend: string;
   database: string;
@@ -183,41 +145,38 @@ export const projects: Project[] = [
     frontend: "Next.js",
     backend: "Python (FastAPI)",
     database: "PostgreSQL",
-    repoUrl: "https://github.com/Awais-Qarni-Muhammad/clinic-booking-suite",
     highlights: [
       "Runs live benchmarks against liboqs algorithm implementations",
       "Visualizes throughput, latency, and key-size trade-offs",
       "Exports comparison reports for research use",
     ],
+    repoUrl: "https://github.com/your-username/pqc-benchmark-suite",
   },
   {
     slug: "clinic-booking-saas",
     title: "Clinic Appointment Booking SaaS",
-    
     description:
       "A multi-tenant appointment booking platform for clinics — patient scheduling, doctor availability, and admin dashboards, designed for the Pakistan healthcare market.",
-    status: "Completed",
+    status: "Demo Project",
     frontend: "Angular",
     backend: "ASP.NET Core",
     database: "SQL Server",
-    repoUrl: "https://github.com/Awais-Qarni-Muhammad/clinic-booking-suite",
     highlights: [
       "Multi-tenant architecture with per-clinic data isolation",
       "JWT authentication with role-based access (admin, doctor, patient)",
       "Conflict-free scheduling engine with cascading appointment rules",
     ],
+    repoUrl: "https://github.com/your-username/clinic-booking-suite",
   },
   {
     slug: "medical-insights-dashboard",
     title: "AI Medical Data Insights Dashboard",
     description:
       "A dashboard that applies ML models to structured medical datasets to surface trends and anomalies, inspired by data-science work on mission-critical health records.",
-    status: "Completed",
+    status: "Demo Project",
     frontend: "React",
     backend: "Python (Flask)",
     database: "PostgreSQL",
-    repoUrl: "https://github.com/Awais-Qarni-Muhammad/clinic-booking-suite",
-
     highlights: [
       "ML-driven anomaly detection on patient data trends",
       "Interactive charts for cohort-level insights",
@@ -229,12 +188,10 @@ export const projects: Project[] = [
     title: "E-Commerce Platform",
     description:
       "A full storefront-to-checkout e-commerce build with an admin panel for catalog and order management.",
-    status: "Completed",
+    status: "Demo Project",
     frontend: "Next.js",
     backend: "Node.js (Express)",
     database: "MongoDB",
-    repoUrl: "https://github.com/Awais-Qarni-Muhammad/clinic-booking-suite",
-
     highlights: [
       "Cart, checkout, and order-tracking flows",
       "Admin panel for product and inventory management",
@@ -246,11 +203,9 @@ export const projects: Project[] = [
     title: "Inventory & Warehouse Management System",
     description:
       "A backend-heavy system for tracking stock levels, warehouse locations, and shipment reconciliation with reporting for operations teams.",
-    status: "Completed",
+    status: "Demo Project",
     frontend: "Angular",
     backend: "ASP.NET Core",
-    repoUrl: "https://github.com/Awais-Qarni-Muhammad/clinic-booking-suite",
-
     database: "SQL Server",
     highlights: [
       "Real-time stock-level tracking with low-stock alerts",
@@ -259,32 +214,14 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "smart-home-iot",
-    title: "Smart Home IoT Dashboard",
-    description:
-      "A real-time smart home control dashboard — live thermostat drift, motion/door sensor events, and automation rules, pushed from an ASP.NET Core + SignalR backend to a glass-UI frontend over WebSockets.",
-    status: "In Development",
-    frontend: "Next.js",
-    backend: "ASP.NET Core (SignalR)",
-    database: "SQL Server",
-    repoUrl: "https://github.com/Awais-Qarni-Muhammad/smart-home-iot-suite",
-    highlights: [
-      "Real-time device state pushed live over WebSockets (SignalR)",
-      "Background service simulates sensor drift and evaluates automation rules",
-      "Toggle lights and thermostats with changes reflected instantly",
-    ],
-  },
-  {
     slug: "realtime-collab",
     title: "Real-Time Collaboration & Chat App",
     description:
       "A team messaging tool with live presence, channels, and threaded conversations, built to explore real-time architecture patterns.",
-    status: "Completed",
+    status: "Demo Project",
     frontend: "React",
     backend: "Node.js (Express + Socket.IO)",
     database: "MongoDB",
-    repoUrl: "https://github.com/Awais-Qarni-Muhammad/clinic-booking-suite",
-
     highlights: [
       "WebSocket-based live messaging and presence indicators",
       "Threaded replies and channel-based organization",
@@ -296,12 +233,10 @@ export const projects: Project[] = [
     title: "HR & Employee Management System",
     description:
       "An internal tool for managing employee records, leave requests, and role-based permissions across departments.",
-    status: "Completed",
+    status: "Demo Project",
     frontend: "Angular",
     backend: "ASP.NET Core",
     database: "SQL Server",
-    repoUrl: "https://github.com/Awais-Qarni-Muhammad/clinic-booking-suite",
-
     highlights: [
       "Leave-request workflow with manager approval chains",
       "Role-based access control across departments",
@@ -313,12 +248,10 @@ export const projects: Project[] = [
     title: "Food Ordering Platform",
     description:
       "A restaurant ordering platform with live menus, order tracking, and an admin dashboard — built on the same concept as a KFC Pakistan-style ordering site.",
-    status: "Completed",
+    status: "Demo Project",
     frontend: "Next.js",
     backend: "Node.js (Express)",
     database: "MongoDB",
-    repoUrl: "https://github.com/Awais-Qarni-Muhammad/clinic-booking-suite",
-
     highlights: [
       "Dynamic menu with combo/deal configuration",
       "Live order-status tracking for customers",
@@ -330,12 +263,10 @@ export const projects: Project[] = [
     title: "Product Analytics Dashboard",
     description:
       "A metrics dashboard that pulls product and sales data into exportable, filterable reports for business stakeholders.",
-    status: "Completed",
+    status: "Demo Project",
     frontend: "React",
     backend: "Python (FastAPI)",
     database: "MySQL",
-    repoUrl: "https://github.com/Awais-Qarni-Muhammad/clinic-booking-suite",
-
     highlights: [
       "Filterable charts across time range, category, and region",
       "CSV/PDF export for stakeholder reporting",
@@ -343,16 +274,30 @@ export const projects: Project[] = [
     ],
   },
   {
+    slug: "smart-home-iot",
+    title: "Smart Home IoT Dashboard",
+    description:
+      "A real-time smart home control dashboard — live thermostat drift, motion/door sensor events, and automation rules, pushed from an ASP.NET Core + SignalR backend to a glass-UI frontend over WebSockets.",
+    status: "In Development",
+    frontend: "Next.js",
+    backend: "ASP.NET Core (SignalR)",
+    database: "SQL Server",
+    highlights: [
+      "Real-time device state pushed live over WebSockets (SignalR)",
+      "Background service simulates sensor drift and evaluates automation rules",
+      "Toggle lights and thermostats with changes reflected instantly",
+    ],
+    repoUrl: "https://github.com/your-username/smart-home-iot-suite",
+  },
+  {
     slug: "freelance-marketplace",
     title: "Freelance Job Marketplace",
     description:
       "A mini Upwork-style marketplace connecting clients and freelancers, with job postings, proposals, and in-platform messaging.",
-    status: "Completed",
+    status: "Demo Project",
     frontend: "Next.js",
     backend: "ASP.NET Core",
     database: "SQL Server",
-    repoUrl: "https://github.com/Awais-Qarni-Muhammad/clinic-booking-suite",
-
     highlights: [
       "Job posting and proposal-bidding workflow",
       "In-platform messaging between clients and freelancers",

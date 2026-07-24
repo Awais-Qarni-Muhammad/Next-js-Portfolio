@@ -65,7 +65,7 @@ export default function Contact() {
         </motion.div>
 
         <p className="text-center text-xs text-[var(--text-muted)] mt-10">
-          © {new Date().getFullYear()} {profile.name}. Built with Next.js.
+          © {new Date().getFullYear()} {profile.name}.
         </p>
       </div>
     </section>

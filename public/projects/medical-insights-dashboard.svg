@@ -1,0 +1,43 @@
+<svg width="640" height="420" viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow1-medical-insights-dashboard" cx="22%" cy="18%" r="65%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2-medical-insights-dashboard" cx="85%" cy="90%" r="60%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="badge-medical-insights-dashboard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <pattern id="grid-medical-insights-dashboard" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M 34 0 L 0 0 0 34" fill="none" stroke="#38bdf8" stroke-opacity="0.14" stroke-width="1"/>
+    </pattern>
+    <mask id="fade-medical-insights-dashboard">
+      <rect width="640" height="420" fill="white"/>
+      <radialGradient id="fadegrad-medical-insights-dashboard" cx="50%" cy="42%" r="60%">
+        <stop offset="0%" stop-color="white"/>
+        <stop offset="100%" stop-color="black"/>
+      </radialGradient>
+      <rect width="640" height="420" fill="url(#fadegrad-medical-insights-dashboard)" opacity="0.35"/>
+    </mask>
+  </defs>
+
+  <rect width="640" height="420" fill="#070a16"/>
+  <rect width="640" height="420" fill="url(#grid-medical-insights-dashboard)" mask="url(#fade-medical-insights-dashboard)"/>
+  <rect width="640" height="420" fill="url(#glow1-medical-insights-dashboard)"/>
+  <rect width="640" height="420" fill="url(#glow2-medical-insights-dashboard)"/>
+
+  <circle cx="320.0" cy="196.0" r="72" fill="white" fill-opacity="0.035"/>
+  <circle cx="320.0" cy="196.0" r="72" fill="none" stroke="url(#badge-medical-insights-dashboard)" stroke-width="2" stroke-opacity="0.6"/>
+  <circle cx="320.0" cy="196.0" r="54" fill="url(#badge-medical-insights-dashboard)" fill-opacity="0.16"/>
+
+  <g transform="translate(320.0, 196.0)">
+    
+    <circle cx="0" cy="0" r="46" fill="none" stroke="white" stroke-width="3" stroke-opacity="0.35"/>
+    <path d="M -40 4 H -18 L -8 -22 L 6 30 L 16 4 H 40" fill="none" stroke="white" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.95"/>
+    
+  </g>
+</svg>

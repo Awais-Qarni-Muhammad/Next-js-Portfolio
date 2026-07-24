@@ -27,35 +27,9 @@ export default function Navbar() {
       }`}
     >
       <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        {/* <a
-          href="#top"
-          className="group relative italic inline-block font-display text-2xl font-semibold tracking-[0.15em]"
-        >
-          <span className="bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">
-            M.
-          </span>
-          <span> Awais </span>
-
-          <span className="bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">
-            Qarni
-          </span>
-          <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-gradient-to-r from-cyan-400 to-blue-500 transition-all duration-500 group-hover:w-full" />
-        </a> */}
-        <a href="#top" className="group italic flex items-center gap-3">
-          <div className="flex  h-10 w-10 px-4 items-center justify-center rounded-full bg-gradient-to-br from-cyan-500 to-blue-600 text-white font-bold shadow-lg group-hover:rotate-6 transition-transform duration-300">
-            MQ
-          </div>
-
-          <div>
-            <div className="font-display text-lg font-bold text-white">
-              M. Awais Qarni
-            </div>
-            <div className="text-xs tracking-[0.3em] uppercase text-slate-400">
-              Software Engineer
-            </div>
-          </div>
+        <a href="#top" className="font-display font-semibold text-sm tracking-wide text-gradient">
+          M. Awais Qarni
         </a>
-
         <ul className="hidden md:flex items-center gap-7">
           {links.map((l) => (
             <li key={l.href}>
